@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spacex.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+    
+        <div class="navbar">
+            <div class="logo"><a href="#">Blue Origin</a></div>
+            <ul class="links">
+                
+             <li><a href="misiones.html">Misiones</a></li>
+             <li><a href="noticias.html">Noticias</a></li>
+             <li><a href="spacio2.html">Misiones</a></li>
+             <li><a href="formularioMusic.html">Formulario</a></li>
+            </ul>
+            <section id="video-fondo">
+                <video autoplay muted loop>
+                    <source src="img/naveespacial.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section id="hero">
+            </section>
+            
+            <a href="#" class="action_btn">Get ready</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu open">
+            <li><a href="hero">Cursos</a></li>
+            <li><a href="hero">Prácticas</a></li>
+            <li><a href="hero">Servicios Gubernamentales</a></li>
+            <li><a href="hero">Servicios ocultos</a></li>
+            <li><a href="hero">Propulsión</a></li>
+            <li><a href="#" class="action_btn">Get ready</a></li>
+        </div>
+    </header>
+    
+    <main>
+
+        <section id="hero">
+       <h1>Bienvenido a tu mundo</h1>
+       <p>Blue Origin tiene una visión ambiciosa para el futuro de la exploración espacial. <br> La empresa cree que la humanidad debería colonizar el espacio y que la tecnología <br> espacial  puede ayudar a resolver algunos de los problemas más urgentes <br> del planeta, como el cambio climático y la escasez de recursos..</p>
+        </section>
+    </main>
+    <script>
+         const toggleBtn = document.querySelector('.toggle_btn')
+         const toggleBtnicon = document.querySelector('.toggle_btn i')
+         const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+         toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnicon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+         }
+        </script>
+</body>
+</html>
