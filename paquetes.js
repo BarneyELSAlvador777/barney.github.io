@@ -6,7 +6,7 @@
       "songName": "talking to the moon (bruno mars remix)",
       "files": {
         "song": "https://github.com/BarneyELSAlvador777/barney.github.io/blob/main/music/song1.mp3",
-        "cover": "https://raw.githubusercontent.com/abxlfazl/music-player-widget/main/src/assets/media/songs/1/img.jpg"
+        "cover": "https://github.com/BarneyELSAlvador777/barney.github.io/blob/main/music/portada1.jpg"
       }
     },
     {
